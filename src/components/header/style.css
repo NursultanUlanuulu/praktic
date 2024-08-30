@@ -1,0 +1,35 @@
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+.header-icon-text {
+	display: flex;
+	align-items: center;
+}
+.navigation {
+	display: flex;
+	/* gap: 10px; */
+}
+.navigation li {
+	margin-left: 40px;
+	list-style: none;
+}
+.signIn {
+	background-color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+.signUp {
+	background-color: #4d77ff;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
